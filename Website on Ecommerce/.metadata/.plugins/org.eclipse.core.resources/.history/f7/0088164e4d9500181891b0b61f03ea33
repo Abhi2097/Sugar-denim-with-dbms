@@ -1,0 +1,131 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+    <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Online Store</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="<c:url value="/resources/css/homestyle.css" />" rel="stylesheet">
+  <link href="<c:url value="/resources/css/dropstyle.css" />" rel="stylesheet">
+    <script src="<c:url value="/resources/js/jquery.1.10.2.min.js" />"></script>
+    <script src="<c:url value="/resources/js/main.js" />"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+     <img src="C:\Users\Abhi\Desktop\images\imgrc0066024329.jpg" height="165" width="1115"></img>
+  
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+	<a href="" class="navbar-brand"><img src="C:\Users\Abhi\Desktop\images\images.png" height="35" width="90px"></a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+	  </div>
+      <a class="navbar-brand" href="#"></a>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="${pageContext.request.contextPath}/">Home</a></li>
+         <li>
+				<li class="dropdown"><a href="#" class="dropdown-toggle"
+					data-toggle="dropdown">Products<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+				<li><a href="${pageContext.request.contextPath}/shirt"><Strong>Shirts</strong></a></li>
+				<li class="divider"></li>
+				<li><a href="${pageContext.request.contextPath}/denim"><strong>Denim</strong></a><li>
+				<li class="divider"></li>
+				<li><a href="${pageContext.request.contextPath}/jackets"><strong>Jackets</strong></a></li>
+				<li class="divider"></li>
+				<li><a href="${pageContext.request.contextPath}/cap"><strong>Caps</strong></a></li>
+				</ul>
+			   </li>
+        <li><a href="${pageContext.request.contextPath}/aboutus">About Us</a></li>
+        <li><a href="${pageContext.request.contextPath}/contact">Contact US</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="${pageContext.request.contextPath}/login"><span class="glyphicon glyphicon-user"></span> Your Account</a></li>
+        <li><a href="${pageContext.request.contextPath}/Signup"><span class="glyphicon glyphicon-user"></span> sign up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+<h1><strong>Shirts</h1></strong>
+<p>Denim shirts available in a variety of designs. Denim shirts are a classic wear, they pair well with almost anything. Get the perfect denim T-shirt according to your style.</p>
+ <hr size="30">
+<br>
+<div class="product-info">
+<div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div class="col-sm-3">
+      <img src="C:\Users\Abhi\Desktop\images\product-image-379040521.jpg" class="img-responsive" style="width:100%" alt="Image">
+	 <div class="product-info">
+	  <p>Sugar Denim </p>
+	  <h3>Jordan Shirts</h3>
+       <p>₹ 5,000 INR</p> 
+	
+    </div>
+    <div class="col-sm-3"> 
+      <img src="C:\Users\Abhi\Desktop\images\product-image-310511996.jpg" class="img-responsive" style="width:100%" alt="Image">
+	  <p>Sugar Denim</p>
+	  <h3>Macros Shirts</h3>
+	    <p>₹ 2,508 INR</p> 
+    </div>
+    <div class="col-sm-3"> 
+      <img src="C:\Users\Abhi\Desktop\images\product-image-386661483.jpg" class="img-responsive" style="width:100%" alt="Image">
+	  <p>Sugar Denim</p>
+	  <h3>Finley Shirts</h3>
+	    <p>₹ 2,357 INR</p> 
+    </div>
+    <div class="col-sm-3">
+      <img src="C:\Users\Abhi\Desktop\images\product-image-252724286.jpg" class="img-responsive" style="width:100%" alt="Image">
+	  <p>Sugar Denim</p>
+	  <h3>Tommy Shirts</h3>
+	    <p>₹ 2,999 INR</p> 
+    </div>
+  </div>
+</div>
+ <div class="container-fluid bg-3 text-center">
+  <div class="row">
+    <div class="col-sm-3">
+      <img src="C:\Users\Abhi\Desktop\images\product-image-326063192.jpg" class="img-responsive" style="width:100%" alt="Image">
+	  <p>Sugar Denim</p>
+	  <h3>Anthony Shirts</h3>
+	    <p>₹ 2,699 INR</p> 
+    </div>
+    <div class="col-sm-3">
+      <img src="C:\Users\Abhi\Desktop\images\denim shirt.jpg" class="img-responsive" style="width:100%" alt="Image">
+	   <p>Sugar Denim</p>
+	   <h3>Brad Shirts</h3>
+	     <p>₹ 2,450 INR</p> 
+    </div>
+    <div class="col-sm-3"> 
+      <img src="C:\Users\Abhi\Desktop\images\denim shirt 2.jpg" class="img-responsive" style="width:100%" alt="Image">
+	  <p>Sugar Denim</p>
+	  <h3>Austin Shorts</h3>
+	    <p>₹ 2,800 INR</p> 
+    </div>
+    <div class="col-sm-3">
+      <img src="C:\Users\Abhi\Desktop\images\product-image-2561962.jpg" class="img-responsive" style="width:100%" alt="Image">
+	  <p>Sugar Denim</p>
+	  <h3>Nathan Shirts</h3>
+	    <p>₹ 2,799 INR</p> 
+    </div>
+  </div>
+   </div><br><br>
+</div>
+<footer class="container-fluid text-center">
+  <p>Copyright &copy 2018 Sugar Denim</p>  
+</footer>
+
+</body>
+</html>

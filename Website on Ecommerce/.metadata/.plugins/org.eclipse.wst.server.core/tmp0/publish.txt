@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Thu Aug 02 12:41:08 IST 2018
+org.eclipse.jst.j2ee.server\:/binary\:C\:\\Users\\Abhi\\.m2\\repository\\org\\springframework\\spring-web\\4.3.5.RELEASE\\spring-web-4.3.5.RELEASE.jar=C\:\\Program Files\\Apache Software Foundation\\Tomcat 9.0\\wtpwebapps\\Ecommerce\\WEB-INF\\lib\\spring-web-4.3.5.RELEASE.jar
+org.eclipse.jst.j2ee.server\:Ecommerce=C\:\\Program Files\\Apache Software Foundation\\Tomcat 9.0\\wtpwebapps\\Ecommerce

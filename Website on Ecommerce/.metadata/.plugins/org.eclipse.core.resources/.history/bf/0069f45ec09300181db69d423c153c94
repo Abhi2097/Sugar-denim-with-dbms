@@ -1,0 +1,32 @@
+package com.niit.controller;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller  // is to create a bean in SPRING CONTAINER
+public class HomeController {
+	
+	public HomeController(){
+		System.out.println("HomeController bean is Created");
+	}
+	
+	
+	
+    @RequestMapping(value="/home")   //  /home - KEY in Handler Map
+	public String getHomePage(){  //  getHomePage() is the Value in Handler map
+    	System.out.println("Entering getHomePage() method in HomeController"); 
+		return "homePage";   //logical view name
+	}
+    
+    
+    @RequestMapping(value="/aboutus")
+    public String aboutUs(){
+    	return "aboutusPage";
+    }
+  
+}
+
+
